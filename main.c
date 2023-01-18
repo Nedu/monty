@@ -1,6 +1,5 @@
 #include "monty.h"
 
-list_t *list_opcode = NULL;
 
 /**
  * main - Main entry point for Stacks and Queues
@@ -10,6 +9,7 @@ list_t *list_opcode = NULL;
  */
 int main(int argc, char **argv)
 {
+	list_t *list_opcode = NULL;
 	stack_t *stack = NULL;
 	list_t *temp;
 
