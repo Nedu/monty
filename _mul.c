@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * mul - Function that multiplicates top values
+ * _mul - Function that multiplicates top values
  * @stack: stack structure
  * @line_number: Number of instructions
  */
-void mul(stack_t **stack, unsigned int line_number)
+void _mul(stack_t **stack, unsigned int line_number)
 {
 	stack_t *temp = NULL;
 	int n;
